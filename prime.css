@@ -1,0 +1,42 @@
+body {
+	background-color: #ffffcc;
+	color: #003300;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: #ffffcc;
+	color: #48751A;
+}
+
+h2 {
+	background-color: #ffffcc;
+	color: #003366;
+}
+
+h3 {
+	background-color: #ffffcc;
+	color: #006600;
+}
+
+nav {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+dd {
+	font-style: italic;
+	font-size: .90em;
+	line-height: 200%;
+}
+
+.contact {
+	font-weight: bold;
+	font-size: .90em;
+	font-family: "Times New Roman", serif;
+}
+
+footer {
+	font-size: .60em;
+	font-style: italic;
+}
