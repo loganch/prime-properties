@@ -65,3 +65,7 @@ footer {
 img {
 	border: none;
 }
+nav {
+	float: left;
+	width: 150px;
+}
