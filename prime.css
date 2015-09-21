@@ -7,6 +7,9 @@ body {
 
 header {
 	color: #48751A;
+	background-image: url('img/primelogo.gif');
+	background-repeat: no-repeat;
+	height: 100px;
 }
 
 h2 {
