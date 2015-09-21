@@ -12,6 +12,12 @@ header {
 	height: 100px;
 }
 
+h1 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
 h2 {
 	color: #003366;
 }
