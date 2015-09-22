@@ -102,3 +102,15 @@ footer {
 	clear: both;
 	margin-left: 180px;
 }
+
+.floatLeft {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.clear {
+	clear: left;
+}
+
+header, nav, main, footer { display: block; }
