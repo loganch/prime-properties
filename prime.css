@@ -91,3 +91,14 @@ nav ul {
 	margin: 0;
 	padding-left: 0;
 }
+
+main {
+	margin-left: 180px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+footer {
+	clear: both;
+	margin-left: 180px;
+}
