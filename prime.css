@@ -69,3 +69,20 @@ nav {
 	float: left;
 	width: 150px;
 }
+nav a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	color: #fffccc;
+	font-weight: bold;
+	border: 3px outset #cccccc;
+}
+nav a:link {
+	background-color: #003366;
+}
+nav a:visited {
+	background-color: #48751a;
+}
+nav a:hover {
+	background-color: #333;
+}
