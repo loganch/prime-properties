@@ -84,5 +84,10 @@ nav a:visited {
 	background-color: #48751a;
 }
 nav a:hover {
-	background-color: #333;
+	border: 3px inset #333333;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
 }
