@@ -121,3 +121,54 @@ header, nav, main, footer { display: block; }
 #desktop {
 	display: inline;
 }
+
+/*Tablet settings*/
+@media only screen  and (max-width: 1024px) {
+	body {
+		margin: 0;
+		padding: 0;
+		background-color: #fffccc;
+		background-image: none;
+	}
+	#wrapper {
+		width: 100%;
+		min-width: 0;
+		margin: 0;
+		padding: 0;
+		box-shadow: none;
+		border-radius: 0;
+		border-style: none;
+	}
+	header {
+		
+		background-image: url('img/primemobile.gif');
+		background-repeat: no-repeat;
+		box-shadow: #000033 100%;
+	}
+	h1 {
+		margin: 0;
+		text-indent: 0;
+		font-size: 3.7em;
+		padding-left: 2em;
+		white-space: normal;
+	}
+	nav {
+		float: none;
+		width: auto;
+		margin-top: 0.5em;
+	}
+	nav a {
+		padding: 0.2em;
+		margin-left: 0.3em;
+		float: left;
+		width: 20%;
+	}
+	main {
+		padding-bottom: 2.5em;
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 0;
+		font-size: 90%;
+		clear: both;
+	}
+}
