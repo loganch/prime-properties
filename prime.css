@@ -140,10 +140,11 @@ header, nav, main, footer { display: block; }
 		border-style: none;
 	}
 	header {
-		
+
 		background-image: url('img/primemobile.gif');
 		background-repeat: no-repeat;
-		box-shadow: #000033 100%;
+		text-shadow: #000033;
+		height: 100%;
 	}
 	h1 {
 		margin: 0;
@@ -170,5 +171,48 @@ header, nav, main, footer { display: block; }
 		margin: 0;
 		font-size: 90%;
 		clear: both;
+	}
+}
+/* Mobile Settings */
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 2.4em;
+		padding-top: 0.25em;
+		padding-left: 1.5em;
+	}
+	nav {
+		width: 98%;
+	}
+	nav a {
+		padding: 0.5em;
+		width: 40%;
+		float: left;
+		min-width: 5em;
+		margin-left: 0.5em;
+	}
+	main {
+		padding: 0.6em;
+	}
+	.floatLeft {
+		float: none;
+		padding-right: 0;
+		padding-bottom: 0;
+	}
+	h3 {
+		padding-top: 0;
+		margin: 0;
+	}
+	dd {
+		line-height: 100%;
+	}
+	footer {
+		padding: 0.5em;
+		margin: 0;
+	}
+	#mobile {
+		display: inline;
+	}
+	#desktop {
+		display: none;
 	}
 }
