@@ -121,6 +121,17 @@ header, nav, main, footer { display: block; }
 #desktop {
 	display: inline;
 }
+table {
+	width: 80%;
+	border: 1px  #000033;
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid #000033;
+}
+td {
+	text-align: center;
+}
 
 /*Tablet settings*/
 @media only screen  and (max-width: 1024px) {
