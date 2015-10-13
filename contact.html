@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prime Properties :: Contact</title>
+	<link rel="stylesheet" type="text/css" href="prime.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<img src="img/primelogo.gif" alt="Prime Properties Logo" height="100" width="650">
+		</header>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="listings.html">Listings</a>
+					</li>
+					<li>
+						<a href="financing.html">Financing</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+
+			<main>
+				<h2>Contact Prime Properties</h2>
+				<p>Required fields are marked with an asterisk (*).</p>
+				<form action="http://webdevbasics.net/scripts/prime.php" method="post">
+					<label for="myName">*Name:</label>
+					<input type="text" name="myName" id="myName" required="required">
+					<label for="myEmail" class="clear">*E-mail:</label>
+					<input type="email" name="myEmail" id="myEmail" required="required">
+					<label for="myComments" class="clear">*Comments:</label>
+					<textarea name="myComments" id="myComments" cols="20" rows="2" required="required"></textarea>
+					<input type="submit" id="mySubmit" value="Send Now">
+				</form>
+			</main>
+			<br>
+			<footer>
+				Copyright &copy; 2014 Prime Properties
+				<br>
+				<a href="mailto:logan_hampton@stu.centralaz.edu">Logan Hampton</a>
+			</footer>
+	</div>
+</body>
+</html>
