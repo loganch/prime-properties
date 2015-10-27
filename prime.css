@@ -1,3 +1,4 @@
+header, nav, main, footer {display: block;}
 body {
 	background-color: #000033;
 	color: #003300;
@@ -30,6 +31,8 @@ h3 {
 nav {
 	font-weight: bold;
 	font-size: 1.2em;
+	float: left;
+	width: 150px;
 }
 
 dd {
@@ -58,16 +61,12 @@ footer {
 	max-width: 960px;
 	padding: 0 0 20px 30px;
 	border: 1px #00332B ridge;
-	border-radius: 10px;
+	border-radius: 15px;
 	box-shadow: inset -3px -3px 3px 3px #00332B;
 }
 
 img {
 	border: none;
-}
-nav {
-	float: left;
-	width: 150px;
 }
 nav a {
 	text-decoration: none;
@@ -76,6 +75,7 @@ nav a {
 	color: #fffccc;
 	font-weight: bold;
 	border: 3px outset #cccccc;
+	padding: 5px;
 }
 nav a:link {
 	background-color: #003366;
@@ -97,7 +97,9 @@ main {
 	padding-right: 20px;
 	padding-bottom: 20px;
 }
-
+main ul {
+	list-style-position: inside;
+}
 footer {
 	clear: both;
 	margin-left: 180px;
@@ -195,9 +197,7 @@ input, textarea {
 		width: 20%;
 	}
 	main {
-		padding-bottom: 2.5em;
-		padding-left: 1em;
-		padding-right: 1em;
+		padding: 2.5em 1em;
 		margin: 0;
 		font-size: 90%;
 		clear: both;
