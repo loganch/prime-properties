@@ -8,6 +8,8 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html.js"></script>
 	<![endif]-->
+	
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -55,7 +57,7 @@
 							<td>4</td>
 							<td>3</td>
 							<td>Two Car Garage</td>
-							<td>#3432535</td>
+							<td><a href="#">#3432535</a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -80,7 +82,7 @@
 							<td>2</td>
 							<td>2</td>
 							<td>Two indoor parking spaces</td>
-							<td>#3432432</td>
+							<td><a href="#">#3432432</a></td>
 						</tr>
 					</tbody>
 				</table>
@@ -92,5 +94,14 @@
 				<a href="mailto:logan_hampton@stu.centralaz.edu">Logan Hampton</a>
 			</footer>
 	</div>
+	
+	<script>
+		$(document).ready(function(){
+			$('a[href="#"]').hover(function() {
+				alert("Please contact us for more information.");
+			}, $.noop);
+			// Noop passed as function for mouse leave to prevent double alerts
+		});
+	</script>
 </body>
 </html>
