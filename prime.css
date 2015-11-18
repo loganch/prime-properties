@@ -141,19 +141,18 @@ td {
 }
 label {
 	float: left;
-	width: 100px;
+	width: 8em;
 	text-align: right;
-	padding-right: 10px;
-	margin-top: 6px;
+	padding-right: 0.5em;
 	display: block;
 	font-weight: bold;
 }
 input, textarea {
-	margin-top: 10px;
 	display: block;
+	margin-bottom: 1em;
 }
 #mySubmit {
-	margin-left: 110px;
+	margin-left: 10.25em;
 }
 
 /*Tablet settings*/
